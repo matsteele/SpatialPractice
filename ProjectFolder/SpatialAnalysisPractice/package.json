@@ -1,0 +1,41 @@
+{
+  "name": "xfitmap",
+  "version": "1.0.0",
+  "description": "spatial practice to import into main site",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack --mode development",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matsteele/SpatialPractice.git"
+  },
+  "keywords": [
+    "map",
+    "xfit"
+  ],
+  "author": "Matt Steele",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/matsteele/SpatialPractice/issues"
+  },
+  "homepage": "https://github.com/matsteele/SpatialPractice#readme",
+  "dependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.3",
+    "babel-preset-env": "^1.6.1",
+    "leaflet": "^1.0.3",
+    "leaflet.markercluster": "^1.3.0",
+    "leaflet.markercluster.webpack": "^1.0.2",
+    "webpack": "^4.0.1",
+    "webpack-cli": "^2.0.9"
+  },
+  "devDependencies": {
+    "css-loader": "^0.28.10",
+    "style-loader": "^0.20.2",
+    "webpack": "^4.0.1",
+    "webpack-cli": "^2.0.10"
+  }
+}
