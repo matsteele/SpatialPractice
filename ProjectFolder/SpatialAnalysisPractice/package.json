@@ -23,10 +23,10 @@
   },
   "homepage": "https://github.com/matsteele/SpatialPractice#readme",
   "dependencies": {
-    "babel-core": "^6.26.0",
-    "babel-loader": "^7.1.3",
-    "babel-preset-env": "^1.6.1",
     "leaflet": "^1.0.3",
+    "leaflet-draw": "^1.0.2",
+    "leaflet-draw-toolbar": "^0.3.0-alpha.1",
+    "leaflet-toolbar": "^0.4.0-alpha.1",
     "leaflet.markercluster": "^1.3.0",
     "leaflet.markercluster.webpack": "^1.0.2",
     "webpack": "^4.0.1",
